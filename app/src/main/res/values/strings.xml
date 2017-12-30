@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FunctionCalculator</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_argument">ArgumentActivity</string>
+    <string name="atribute_prompt_name_title">Имя переменной</string>
+    <string name="atribute_value_title">Значение переменной</string>
+    <string name="title_activity_groups_save">GroupsSaveActivity</string>
+    <string name="group_prompt_name">Имя группы</string>
+    <string name="function_prompt_name">Имя функции</string>
+    <string name="function_prompt_description">Описание функции(не обязательно)</string>
+</resources>

@@ -1,0 +1,148 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.FunctionFragment"
+    android:orientation="vertical"
+
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    <Button
+        android:id="@+id/openBracket"
+        android:text="("
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+
+      />
+    <Button
+        android:id="@+id/closeBracket"
+        android:text=")"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        />
+    <Button
+        android:id="@+id/deleteSymbol"
+        android:text="d"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/clearAll"
+        android:text="C"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    <Button android:id="@+id/num7"
+        android:text="7"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"/>/>
+
+    <Button android:id="@+id/num8"
+        android:text="8"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"/>
+    <Button android:id="@+id/num9"
+        android:text="9"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"/>
+    <Button android:id="@+id/operationAdd"
+        android:text="+"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    <Button android:id="@+id/num4"
+        android:text="4"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"/>
+    <Button android:id="@+id/num5"
+        android:text="5"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"/>
+    <Button android:id="@+id/num6"
+        android:text="6"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"/>
+    <Button android:id="@+id/operationSub"
+        android:text="-"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    <Button android:id="@+id/num1"
+        android:text="1"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"/>
+    <Button android:id="@+id/num2"
+        android:text="2"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"/>
+    <Button android:id="@+id/num3"
+        android:text="3"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"/>
+    <Button android:id="@+id/operationMultiply"
+        android:text="*"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    <Button android:id="@+id/num0"
+        android:text="0"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"/>
+    <Button android:id="@+id/dot"
+        android:text="."
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"/>
+    <Button android:id="@+id/operationDivide"
+        android:text="/"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"/>
+    <Button android:id="@+id/operationCalculate"
+        android:text="="
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<android.support.v7.widget.GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:columnCount="4"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <Button
+            android:id="@+id/pow"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:text="^"
+            />
+    <Button
+        android:id="@+id/frgment2_insert_arg"
+        app:layout_columnWeight="1"
+        app:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:text="ab"
+        />
+    <Button app:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        app:layout_columnWeight="1"
+        android:visibility="invisible"
+        />
+    <Button app:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        app:layout_columnWeight="1"
+        android:visibility="invisible"
+        />
+    <Button app:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        app:layout_columnWeight="1"
+        android:visibility="invisible"
+        />
+    <Button app:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        app:layout_columnWeight="1"
+        android:visibility="invisible"
+        />
+    <Button app:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        app:layout_columnWeight="1"
+        android:visibility="invisible"
+        />
+    <Button app:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        app:layout_columnWeight="1"
+        android:visibility="invisible"
+        />
+    <Button app:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        app:layout_columnWeight="1"
+        android:visibility="invisible"
+        />
+
+    </android.support.v7.widget.GridLayout>
